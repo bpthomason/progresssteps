@@ -55,7 +55,7 @@ body {
   height: 4px;
   width: 0%;
   z-index: -1;
-  transition: 0.4s ease;
+  transition: 500ms ease;
 }
 
 .circle {
@@ -71,7 +71,7 @@ body {
 }
 
 .circle.active {
-  border-color: var(--line-border-empty);
+  border-color: var(--line-border-fill);
 }
 
 .btn {
